@@ -1,0 +1,142 @@
+M8 .2 
+
+A NOVEL FRACTAL BLOCK- CODING TECHN IQUE 
+FO R D IG ITAL IMAGES 
+
+A rnaud E. Jacquin 
+
+School of Ma thema t ic s 
+Georgia In s t i tu te of Technology 
+A t lan ta , GA 30332 
+A . Im a g e p a r t i t i o n s 
+T h e squa re suppo r t of a n r x r d ig i ta l image is pa r t i t ioned in to 
+non-overlapping 
+squa re range cells' of two different sizes; thu s 
+forming a two-level 
+squa re pa r t i t ion . T h e larger cells-of 
+size 
+BxB-are 
+referred t o as (range) pa ren t cells; th e smaller ones-of 
+size 
+B /2xB /2 - a s 
+(range) child cells. A pa ren t cell can be sp l i t in to four 
+non-overlapping child cells. T h e ac tua l construction of a pa r t i t ion , 
+given a n original image t o encode, is discussed in section 111. All along 
+th i s pape r , th e image pa r t i t ion will be denoted {B i} iEC , where C is 
+t h e se t of a l l range blocks indices. 
+
+Ab s t rac t 
+A novel approach t o d ig i ta l image coding, rooted in I te ra ted 
+T ran s fo rma t ion Theo ry , and referred t o as ITT -ba sed coding, is 
+proposed. I t is a f r a c t a l block-coding me thod which relies on th e 
+assumption 
+t h a t 
+image redundancy can be efficiently exploited 
+through block s e l f - t r a n s f o rm a b i l i t y . 
+T h e coding-decoding system is based on th e construction, for 
+any given original image t o encode, of a n image t ran s fo rma t ion of a 
+special kind which, when i te ra ted on any in i t ia l image, produces a 
+sequence of images t h a t converges t o a f rac ta l app rox ima t ion of the 
+original. T h e requirements on the t ran s fo rma t ion a r e t h a t ( i ) i t is 
+c o n t r a c t i v e in the me t r ic space of images endowed with th e L, me t r ic , 
+(ii) i t leaves the original image app rox ima te ly inva r ian t , and (iii) i t s 
+c om p l e z i t y is smaller th an t h a t of the original image. Ou r fully 
+au toma ted ITT-based system ha s compa rab le performance, in te rm s 
+of SNR and b i t ra te , t o s ta te -o f - the -a r t 
+vector quantizers, with 
+which i t shares some features. 
+
+I INTRODUCT ION 
+T h e past few years have seen the rise of various block-coding 
+me thod s for th e compression of d ig i ta l images. Modern techniques 
+essentially revolve a round th e areas of transform coding [7] and vector 
+quan t iza t ion [2 ,6 ] . 
+In 
+th i s paper, we propose a novel 
+image block-coding 
+technique. 
+I t 
+is rooted 
+in a ma thema t ica l 
+theory of I te ra ted 
+T ran s fo rma t ion s [3,4]. T h e 
+t ran s fo rma t ion s considered here a re 
+discrete, con t rac t ive image t ran s fo rma t ion s defined blockwise. 
+Given a n original image, the encoding procedure is t o find 
+among a class of contractive t ran s fo rma t ion s specified a p r i o r i , one 
+which leaves the original image app rox ima te ly inva r ian t . We call such 
+a transformation a f rac ta l code. I t ha s th e fundamen ta l property t h a t , 
+when i te ra ted on any in i t ia l image, it produces a sequence of images 
+which converges t o a f rac ta l image-the 
+decoded image-visually 
+close t o th e original. 
+In section I1 we propose a class of t ran s fo rma t ion s . In section 
+I11 we present a n au tom a t ed ITT -ba sed coding procedure. In section 
+IV we address the decoding of an image from a f rac ta l code, and show 
+how t o compu te bit rates. In section V we present coding s imu la t ion s 
+and compare ou r technique with vector quan t iza t ion , on a theoretical 
+level. 
+
+'I A 
+OF 
+IMAGE TRANSFoRMAT1oNS 
+In 
+th i s section, we define a class of discrete 
+image 
+t ran s fo rma t ion s which will be used t o r e p r e s e n t or encode d ig i ta l 
+images. These t ran s fo rma t ion s a re defined blockwise, consistently with 
+a pa r t i t ion of th e image suppo r t , and a re con t rac t ive with respect t o 
+the L, metric. 
+
+B . D i s t o r t i o n m e a s u r e 
+Let S(io,j,,,B) denote th e squa re cell of size B x B , with bo t tom 
+left corner a t th e intersection of image row io and image column j,. 
+Let p be a n original r x r image, and ji be a n app rox ima t ion of p. Let 
+p ( S ) , j i ( S ) deno te their restrictions t o th e cell S(i,,j,,,B). T h e L, or 
+root-mean-square 
+( rm s ) d i s to r t ion between th e image blocks p ( S ) 
+and p ( S ) is defined as the squa re root of the sum , over the cell, of th e 
+squared differences of pixel values, i.e. 
+
+1 
+
+T h e signal-to-noise 
+
+r a t io (SNR) is usually defined by: 
+
+where d r ( p ) denotes the dynam ic range of p. 
+
+C. D i s c r e t e im a g e t r a n s f o rm a t i o n s 
+T h e general fo rm of our image t ran s fo rma t ion s is a sum of 
+elementary block transformations: 
+r = C i E C 7 i = C i E C S i O Y i ' 
+where Y. is a spa t ia l contraction f rom a doma in cell Di t o the range 
+cell B i , ' and T i is a t ran s fo rma t ion which processes image blocks 
+suppo r ted on Bi. 
+
+Spa t ia l con t rac t ion Y i 
+We describe th e ac t ion of a D : B (D = 2B) discrete spa t ia l 
+con t rac t ion ope ra to r f which map s a squa re doma in cell Di = 
+S ( id , j d , D ) t o a squa re range cell Bi = S ( i r , j r , B). T h e pixel values of 
+th e con t rac ted image block on th e range cell Bi a r e average values of 
+four neighboring pixels in th e doma in block. 
+( "h r+ i , j r+ j 
+- h ( i ) % J ( j ) + p I ( i ) + l , J ( j ) + h ( i ) , J ( j ) + l + 
+p q i ) + l , J ( j ) + l ) / 4 y fo r all i , j@ , 
+I ( i ) = id + 2i, and J ( j ) = j d + 2j. 
+where th e two index functions I and J a r e defined by, 
+
+. . . , B-11, 
+
+- 
+
+'The 
+te rm c e l l is used t o deno te a square subset of the image suppo r t . T h e 
+te rm block is used to deno te the restriction of a n image to a cell. 
+
+~ 
+
+2225 
+
+CH2847-2/90/0000-2225 $1.00 ' 1990 IEEE 
+

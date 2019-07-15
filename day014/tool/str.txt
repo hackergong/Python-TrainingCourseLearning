@@ -1,0 +1,21 @@
+
+
+https://www.qiushibaike.com/text/page/1/
+
+##完整的header#headers = {#    "Accept":"application/json,text/javascript,*/*;q=0.01",#"X-Requested-With":"XMLHttpRequest",#   "User-Agent":"Mozilla/5.0(Windows NT 10.0;Win64;x64)AppleWebKit/537.36(KHTML,like Gecko)Chrome/54.0.2840.99 Safari/537.36",#"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8",#}
+
+
+{"name":"sunck凯","age":18,"hobby":["money","ppower","english"]
+,"parames":{"a":1,"b":2}}
+
+http://blog.csdn.net.miyuexingcheng/article/details/50206 437
+
+#发起ajax请求
+https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0
+
+
+https://movie.douban.com/explore#!type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0
+
+https://www.qiushibaike.com/text
+https://www.qiushibaike.com/text/page/2/
+https://www.qiushibaike.com/text/page/3/

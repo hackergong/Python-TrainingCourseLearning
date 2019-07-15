@@ -1,0 +1,1406 @@
+{
+  "track_spline": {
+    "the_x": [], 
+    "loc_y": [], 
+    "loc_x": [], 
+    "loc_z": [], 
+    "rot_x": [], 
+    "rot_y": [], 
+    "rot_z": []
+  }, 
+  "time": [
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 0, 
+      "transform_loc_strength": 1, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.0, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_offset_pitch": 0.0, 
+      "spline_affect_pitch": 1.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {}
+        }
+      ], 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_offset_heading": 0.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "camera_in": 0.0
+    }
+  ], 
+  "pit_spline": {
+    "the_x": [], 
+    "loc_y": [], 
+    "loc_x": [], 
+    "loc_z": [], 
+    "rot_x": [], 
+    "rot_y": [], 
+    "rot_z": []
+  }, 
+  "pos": [
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 0, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 2, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_fov": 0.03333333333333333, 
+            "camera_offset_shake_strength": 0.039999999999999994, 
+            "loc_y": 3.375722885131836, 
+            "loc_x": -339.85699462890625, 
+            "loc_z": -0.2948376536369324
+          }, 
+          "keyframe": 0.026482188870725374
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "camera_fov": 0.03278688524590164, 
+            "loc_y": 3.375722885131836, 
+            "loc_x": -339.85699462890625, 
+            "loc_z": -0.2948376536369324
+          }, 
+          "keyframe": 0.056603198390892215
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "camera_fov": 0.02222222222222223, 
+            "loc_y": 3.375722885131836, 
+            "loc_x": -339.85699462890625, 
+            "loc_z": -0.2948376536369324
+          }, 
+          "keyframe": 0.06433569227095531
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 0, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.026482188870725377
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 1, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 1, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.0, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1.3877787807814457e-17, 
+      "tracking_strength_heading": 0, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "tracking_strength_pitch": 1, 
+            "loc_y": -60.301719665527344, 
+            "loc_x": -32.68566131591797, 
+            "loc_z": 14.613746643066406, 
+            "camera_fov": 0.06060606060606061, 
+            "rot_y": 0, 
+            "tracking_strength_heading": 1
+          }, 
+          "keyframe": 0.07610993832349777
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "camera_offset_shake_strength": 0.0, 
+            "tracking_strength_pitch": 1.3877787807814457e-17, 
+            "loc_y": -60.301719665527344, 
+            "loc_x": -32.68566131591797, 
+            "loc_z": 14.613746643066406, 
+            "camera_fov": 0.04651162790697674, 
+            "camera_shake_strength": 0.039999999999999994, 
+            "tracking_strength_heading": 0
+          }, 
+          "keyframe": 0.14790035372885002
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.039999999999999994, 
+      "new_active_slot": 1, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.07610993832349777
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 2, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 2, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_fov": 0.05714285714285714, 
+            "rot_y": 0, 
+            "loc_y": -135.20327758789062, 
+            "loc_x": 200.03695678710938, 
+            "loc_z": 39.00413818359378
+          }, 
+          "keyframe": 0.16112465830383355
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "camera_fov": 0.05405405405405406, 
+            "loc_y": -135.20327758789062, 
+            "loc_x": 200.03695678710938, 
+            "loc_z": 39.0041389465332
+          }, 
+          "keyframe": 0.2118086677356092
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "camera_fov": 0.03703703703703703, 
+            "loc_y": -135.20327758789062, 
+            "loc_x": 200.03695678710938, 
+            "loc_z": 39.0041389465332
+          }, 
+          "keyframe": 0.2278567215561744
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 2, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.16112465830383355
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 3, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 3, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_offset_shake_strength": 0.06, 
+            "loc_y": -272.4892578125, 
+            "loc_x": 127.75942993164062, 
+            "loc_z": 26.723724365234375, 
+            "camera_fov": 0.05, 
+            "rot_y": 0
+          }, 
+          "keyframe": 0.24436573336169404
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "camera_fov": 0.05128205128205128, 
+            "loc_y": -272.4892578125, 
+            "loc_x": 127.75942993164062, 
+            "loc_z": 26.723724365234375
+          }, 
+          "keyframe": 0.26426934966568594
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "camera_fov": 0.02739726027397259, 
+            "loc_y": -272.4892578125, 
+            "loc_x": 127.75942993164062, 
+            "loc_z": 26.723724365234375
+          }, 
+          "keyframe": 0.27362282824780726
+        }, 
+        {
+          "slot": 3, 
+          "interpolation": {
+            "camera_fov": 0.03921568627450982, 
+            "loc_y": -272.4892578125, 
+            "loc_x": 127.75942993164062, 
+            "loc_z": 26.723724365234375
+          }, 
+          "keyframe": 0.2822253421656982
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 3, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.24436573336169404
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 4, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 3, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_fov": 0.06060606060606061, 
+            "rot_y": 0, 
+            "loc_y": -473.5364685058594, 
+            "loc_x": 270.55853271484375, 
+            "loc_z": 15.180416107177734
+          }, 
+          "keyframe": 0.28428263811785953
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "camera_fov": 0.058823529411764705, 
+            "loc_y": -473.5364685058594, 
+            "loc_x": 270.55853271484375, 
+            "loc_z": 15.180416107177734
+          }, 
+          "keyframe": 0.32245995303787806
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "camera_fov": 0.05555555555555555, 
+            "loc_y": -473.5364685058594, 
+            "loc_x": 270.55853271484375, 
+            "loc_z": 15.180416107177734
+          }, 
+          "keyframe": 0.33221028286532445
+        }, 
+        {
+          "slot": 3, 
+          "interpolation": {
+            "camera_fov": 0.041666666666666664, 
+            "loc_y": -473.5364685058594, 
+            "loc_x": 270.55853271484375, 
+            "loc_z": 15.180416107177734
+          }, 
+          "keyframe": 0.3438563405646694
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 3, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.2842828632376139
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 5, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 0, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.0, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_fov": 0.029411764705882353, 
+            "rot_y": 0, 
+            "loc_y": -337.8623046875, 
+            "loc_x": 349.616455078125, 
+            "loc_z": 17.65677261352539
+          }, 
+          "keyframe": 0.35592061842254913
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.0, 
+      "new_active_slot": 0, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.35592061842254913
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 6, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 3, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_fov": 0.05555555555555555, 
+            "rot_y": 0, 
+            "loc_y": -455.10528564453125, 
+            "loc_x": 392.05450439453125, 
+            "loc_z": -8.333335876464844
+          }, 
+          "keyframe": 0.4036282435143873
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "camera_fov": 0.05405405405405406, 
+            "loc_y": -455.10528564453125, 
+            "loc_x": 392.05450439453125, 
+            "loc_z": -8.333335876464844
+          }, 
+          "keyframe": 0.4210530658860415
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "camera_fov": 0.033898305084745756, 
+            "loc_y": -455.10528564453125, 
+            "loc_x": 392.05450439453125, 
+            "loc_z": -8.333335876464844
+          }, 
+          "keyframe": 0.4336210395552953
+        }, 
+        {
+          "slot": 3, 
+          "interpolation": {
+            "camera_fov": 0.05555555555555553, 
+            "loc_y": -455.10528564453125, 
+            "loc_x": 392.05450439453125, 
+            "loc_z": -8.333335876464844
+          }, 
+          "keyframe": 0.45553943910478323
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 3, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.4036282435143873
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 7, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 3, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 0.049999999999999684, 
+      "tracking_strength_heading": 0.05, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "tracking_strength_pitch": 1, 
+            "loc_y": -191.26670837402344, 
+            "loc_x": 339.1792297363281, 
+            "loc_z": -7.572438716888428, 
+            "camera_fov": 0.05405405405405406, 
+            "rot_y": 0, 
+            "tracking_strength_heading": 1
+          }, 
+          "keyframe": 0.4632609784603119
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "tracking_strength_pitch": 1, 
+            "loc_y": -191.26670837402344, 
+            "loc_x": 339.1792297363281, 
+            "loc_z": -7.572438716888428, 
+            "camera_fov": 0.05263157894736842, 
+            "tracking_strength_heading": 1
+          }, 
+          "keyframe": 0.5024258873889874
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "tracking_strength_pitch": 1, 
+            "loc_y": -191.26670837402344, 
+            "loc_x": 339.1792297363281, 
+            "loc_z": -7.572438716888428, 
+            "camera_fov": 0.019417475728155338, 
+            "tracking_strength_heading": 1
+          }, 
+          "keyframe": 0.5132110831561658
+        }, 
+        {
+          "slot": 3, 
+          "interpolation": {
+            "loc_y": -191.26670837402344, 
+            "tracking_strength_pitch": 0.049999999999999684, 
+            "tracking_strength_heading": 0.05, 
+            "loc_x": 339.1792297363281, 
+            "loc_z": -7.572438716888428
+          }, 
+          "keyframe": 0.5314082391052602
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 3, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.4632609784603119
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 8, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 2, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_fov": 0.05405405405405406, 
+            "rot_y": 0, 
+            "loc_y": -36.588409423828125, 
+            "loc_x": 68.63370513916016, 
+            "loc_z": -1.3320075273513794
+          }, 
+          "keyframe": 0.5399733377762148
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "camera_fov": 0.05263157894736842, 
+            "loc_y": -36.588409423828125, 
+            "loc_x": 68.63370513916016, 
+            "loc_z": -1.3320075273513794
+          }, 
+          "keyframe": 0.5972580715122248
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "camera_fov": 0.028985507246376798, 
+            "loc_y": -36.588409423828125, 
+            "loc_x": 68.63370513916016, 
+            "loc_z": -1.3320075273513794
+          }, 
+          "keyframe": 0.6086080171285195
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 2, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.5399741206005058
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 9, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 2, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_offset_shake_strength": 0.02, 
+            "loc_y": -3.0538904666900635, 
+            "loc_x": -44.18103790283203, 
+            "loc_z": -12.982569694519043, 
+            "camera_fov": 0.048780487804878044, 
+            "rot_y": 0, 
+            "camera_shake_strength": 0.2
+          }, 
+          "keyframe": 0.616801468993537
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "camera_fov": 0.047619047619047616, 
+            "loc_y": -3.0538904666900635, 
+            "loc_x": -44.18103790283203, 
+            "loc_z": -12.982569694519043
+          }, 
+          "keyframe": 0.6349253600973407
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "camera_fov": 0.019417475728155338, 
+            "loc_y": -3.0538904666900635, 
+            "loc_x": -44.18103790283203, 
+            "loc_z": -12.982569694519043
+          }, 
+          "keyframe": 0.6469469001288009
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 0, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.616801468993537
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 10, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 2, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_offset_shake_strength": 0.06, 
+            "loc_y": 9.762213706970215, 
+            "loc_x": -272.60595703125, 
+            "loc_z": -12.53515625, 
+            "camera_fov": 0.06060606060606061, 
+            "rot_y": 0, 
+            "camera_shake_strength": 0.2
+          }, 
+          "keyframe": 0.6495844345592684
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "camera_fov": 0.058823529411764705, 
+            "loc_y": 9.762213706970215, 
+            "loc_x": -272.60595703125, 
+            "loc_z": -12.53515625
+          }, 
+          "keyframe": 0.6969623678472981
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "camera_fov": 0.030769230769230764, 
+            "loc_y": 9.762213706970215, 
+            "loc_x": -272.60595703125, 
+            "loc_z": -12.53515625
+          }, 
+          "keyframe": 0.7157334317511702
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 2, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.6495844345592684
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 11, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 0, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_fov": 0.03636363636363636, 
+            "rot_y": 0, 
+            "loc_y": 193.92227172851562, 
+            "loc_x": -311.128662109375, 
+            "loc_z": -0.9909571409225464
+          }, 
+          "keyframe": 0.7283838283713762
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 0, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.7283838283713762
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 12, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 1, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 0, 
+      "tracking_strength_heading": 0, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_offset_shake_strength": 0.1, 
+            "tracking_strength_pitch": 1, 
+            "loc_y": 226.47085571289062, 
+            "loc_x": -269.06329345703125, 
+            "loc_z": -15.037522315979004, 
+            "camera_fov": 0.04878048780487803, 
+            "tracking_strength_heading": 1
+          }, 
+          "keyframe": 0.7562397330913034
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "tracking_strength_pitch": 0, 
+            "loc_y": 226.47085571289062, 
+            "loc_x": -269.06329345703125, 
+            "loc_z": -15.037522315979004, 
+            "camera_fov": 0.04878048780487805, 
+            "tracking_strength_heading": 0
+          }, 
+          "keyframe": 0.7761769291160535
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 0, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.7562397330913034
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 13, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 0, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_fov": 0.04347826086956523, 
+            "rot_y": 0, 
+            "loc_y": 315.6048583984375, 
+            "loc_x": -255.2796173095703, 
+            "loc_z": -14.865720748901367
+          }, 
+          "keyframe": 0.7889402757060827
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 0, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.788941502571106
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 14, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 3, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.0, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 0, 
+      "tracking_strength_heading": 0, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_offset_shake_strength": 0.04, 
+            "tracking_strength_pitch": 1, 
+            "loc_y": 364.19744873046875, 
+            "loc_x": -279.77587890625, 
+            "loc_z": -13.373007774353027, 
+            "camera_fov": 0.04999999999999998, 
+            "rot_y": 0, 
+            "tracking_strength_heading": 1
+          }, 
+          "keyframe": 0.8082150354213288
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "tracking_strength_pitch": 1, 
+            "loc_y": 364.19744873046875, 
+            "loc_x": -279.77587890625, 
+            "loc_z": -13.373007774353027, 
+            "camera_fov": 0.041666666666666664, 
+            "tracking_strength_heading": 1
+          }, 
+          "keyframe": 0.8208654320415346
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "tracking_strength_pitch": 1, 
+            "loc_y": 364.19744873046875, 
+            "loc_x": -279.77587890625, 
+            "loc_z": -13.373007774353027, 
+            "camera_fov": 0.024390243902439015, 
+            "tracking_strength_heading": 1
+          }, 
+          "keyframe": 0.8303868092274473
+        }, 
+        {
+          "slot": 3, 
+          "interpolation": {
+            "tracking_strength_pitch": 0, 
+            "loc_y": 364.19744873046875, 
+            "loc_x": -279.77587890625, 
+            "loc_z": -13.373007774353027, 
+            "camera_fov": 0.024390243902439025, 
+            "tracking_strength_heading": 0
+          }, 
+          "keyframe": 0.8534408138789422
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.0, 
+      "new_active_slot": 3, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.8082150354213288
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 15, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 2, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_fov": 0.05, 
+            "rot_y": 0, 
+            "loc_y": 480.4697265625, 
+            "loc_x": -169.39779663085938, 
+            "loc_z": -13.179933547973633
+          }, 
+          "keyframe": 0.8574203944835816
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "camera_fov": 0.04878048780487805, 
+            "loc_y": 480.4697265625, 
+            "loc_x": -169.39779663085938, 
+            "loc_z": -13.179933547973633
+          }, 
+          "keyframe": 0.8753683715340915
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "camera_fov": 0.032258064516129024, 
+            "loc_y": 480.4697265625, 
+            "loc_x": -169.39779663085938, 
+            "loc_z": -13.179933547973633
+          }, 
+          "keyframe": 0.8813394564252891
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 0, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.8574215371397406
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 16, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 2, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 1, 
+      "tracking_strength_heading": 1, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_fov": 0.04, 
+            "rot_y": 0, 
+            "loc_y": 510.7804870605469, 
+            "loc_x": -255.02362060546875, 
+            "loc_z": -9.775226593017578
+          }, 
+          "keyframe": 0.8866141678476719
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "camera_fov": 0.0392156862745098, 
+            "loc_y": 510.7804870605469, 
+            "loc_x": -255.02362060546875, 
+            "loc_z": -9.775226593017578
+          }, 
+          "keyframe": 0.9001654689631292
+        }, 
+        {
+          "slot": 2, 
+          "interpolation": {
+            "camera_fov": 0.02941176470588236, 
+            "loc_y": 510.7804870605469, 
+            "loc_x": -255.02362060546875, 
+            "loc_z": -9.775226593017578
+          }, 
+          "keyframe": 0.906350242986425
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 2, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.8866145252862244
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 17, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 1, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.10000000000000003, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 0, 
+      "tracking_strength_heading": 0, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "camera_offset_shake_strength": 0.08000000000000003, 
+            "tracking_strength_pitch": 1, 
+            "loc_y": 267.2825927734375, 
+            "loc_x": -351.3119201660156, 
+            "camera_shake_strength": 0.18, 
+            "loc_z": -8.929536819458008, 
+            "camera_fov": 0.048780487804878044, 
+            "rot_y": 0, 
+            "tracking_strength_heading": 1
+          }, 
+          "keyframe": 0.9254082608676858
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "tracking_strength_pitch": 0, 
+            "loc_y": 267.2825927734375, 
+            "loc_x": -351.3119201660156, 
+            "loc_z": -8.929536819458008, 
+            "camera_fov": 0.04878048780487805, 
+            "tracking_strength_heading": 0
+          }, 
+          "keyframe": 0.9732379940350085
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.18, 
+      "new_active_slot": 0, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.9254082608676858
+    }, 
+    {
+      "spline_speed": 1.0, 
+      "camera_use_tracking_point": 1, 
+      "slot": 18, 
+      "transform_loc_strength": 1, 
+      "spline_offset_pitch": 0.0, 
+      "i": 1, 
+      "spline_affect_loc_z": 1.0, 
+      "camera_offset_shake_strength": 0.1, 
+      "spline_affect_loc_xy": 1.0, 
+      "spline_offset_loc_x": 0.0, 
+      "spline_offset_loc_z": 0.0, 
+      "spline_affect_roll": 1.0, 
+      "spline_offset_heading": 0.0, 
+      "tracking_strength_pitch": 0.999897378304797, 
+      "tracking_strength_heading": 0.999897378304797, 
+      "tracking_offset_pitch": 0.0, 
+      "transform_rot_strength": 1, 
+      "tracking_offset_heading": 0.0, 
+      "keyframes": [
+        {
+          "slot": 0, 
+          "interpolation": {
+            "tracking_strength_pitch": 1, 
+            "loc_y": 97.8671646118164, 
+            "loc_x": -356.4305725097656, 
+            "loc_z": -11.70114803314209, 
+            "camera_fov": 0.05405405405405406, 
+            "tracking_strength_heading": 1
+          }, 
+          "keyframe": 0.020193622983267826
+        }, 
+        {
+          "slot": 1, 
+          "interpolation": {
+            "tracking_strength_pitch": 0, 
+            "loc_y": 97.8671646118164, 
+            "loc_x": -356.4305725097656, 
+            "loc_z": -11.70114803314209, 
+            "camera_fov": 0.04999999999999998, 
+            "rot_y": 0, 
+            "tracking_strength_heading": 0
+          }, 
+          "keyframe": 0.980317209711229
+        }
+      ], 
+      "spline_offset_spline": 0.0, 
+      "tracking_offset": -0.1, 
+      "spline_affect_pitch": 1.0, 
+      "camera_pit": false, 
+      "spline_affect_heading": 1.0, 
+      "tracking_mix": 0, 
+      "camera_shake_strength": 0.2, 
+      "new_active_slot": 0, 
+      "spline": {
+        "the_x": [], 
+        "loc_y": [], 
+        "loc_x": [], 
+        "loc_z": [], 
+        "rot_x": [], 
+        "rot_y": [], 
+        "rot_z": []
+      }, 
+      "camera_in": 0.980317209711229
+    }
+  ]
+}
