@@ -32,7 +32,7 @@ but I am looking forward to this chance to have a dialogue.
 This is my first time traveling to China, and I'm excited to see this majestic country. Here, in Shanghai, we see the growth that has
 caught the attention of the world -- the soaring skyscrapers, the bustling streets and entrepreneurial activity. And just as I'm impr
 essed by these signs of China's journey to the 21st century, I'm eager to see those ancient places that speak to us from China's dista
-nt past. Tomorrow and the next day I hope to have a chance when I'm in Beijing to see the majesty of the Forbidden City and the wonder
+nt past. Tomorrow and the next day015 I hope to have a chance when I'm in Beijing to see the majesty of the Forbidden City and the wonder
 of the Great Wall. Truly, this is a nation that encompasses both a rich history and a belief in the promise of the future.'''
 
 text.insert(tkinter.INSERT,str)

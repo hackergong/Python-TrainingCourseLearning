@@ -9,7 +9,7 @@ DST（夏令时）：是一种节约能源而认为规定时间制度，在夏�
 以整型或浮点型表示时间的一个以秒为单位的时间间隔，这个时间间隔的基础值是从1970年1月1日零点开始算起
 
 2.元组
-一种Python的数据结构表示，这个元组有9个整型内容year,month,day,hours,minutes,seconds,weekday,Julia day,flag(1或-1或0)
+一种Python的数据结构表示，这个元组有9个整型内容year,month,day015,hours,minutes,seconds,weekday,Julia day015,flag(1或-1或0)
 
 3.格式化的字符串
 %a  本地（locale）简化星期名称
@@ -99,14 +99,14 @@ import time
 
 #新的方式
 #可以做性能测试
-y1 = time.perf_counter()
-print(y1)
-time.sleep(2)
-y2 = time.perf_counter()
-print(y2)
-time.sleep(2)
-y3 = time.perf_counter()
-print("%d" % y3)
+# y1 = time.perf_counter()
+# print(y1)
+# time.sleep(2)
+# y2 = time.perf_counter()
+# print(y2)
+# time.sleep(2)
+# y3 = time.perf_counter()
+# print("%d" % y3)
 
 '''
 #测试运算速度

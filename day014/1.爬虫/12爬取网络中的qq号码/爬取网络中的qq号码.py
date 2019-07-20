@@ -2,13 +2,14 @@ import urllib.request
 import ssl
 import re
 import os
+from collections import deque
 
-def writeFileBytes(htmlBytes,toPath=""):
+def writeFileBytes(htmlBytes,toPath):
     #Bytes,二进制，所以wb
     with open(toPath,"wb") as f:
         f.write(htmlBytes)
 
-def writeFileStr(htmlBytes,toPath=""):
+def writeFileStr(htmlBytes,toPath):
     with open(toPath,"w") as f:
         f.write(str(htmlBytes))
 
@@ -21,34 +22,50 @@ def getHtmlBytes(url):
     response = urllib.request.urlopen(req,context=context)
     return response.read()
 
-def qqCrawler(url,toPaht):
+def qqCrawler(url,toPath):
     htmlBytes = getHtmlBytes(url)
-
     htmlStr = str(htmlBytes)
-    pat = r"[1-9]\d{4,10}"
+    pat = r'(((http|ftp|https)://)(([a-zA-Z0-9\._-]+\.[a-zA-Z]{2,6})|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,4})*(/[a-zA-Z0-9\&%_\./-~-]*)?)'
+
+    re_url = re.compile(pat)
+    urlList = re_url.findall(htmlStr)
+    urlList = list(set(urlList))
+
+    pat = r"[0-9]\d{4,10}"
     re_qq = re.compile(pat)
-    #finditer
     qqList = re_qq.findall(htmlStr)
     #去重
     qqList = list(set(qqList))
-    # print(qqList)
-    # print(len(qqList))
+    f = open(toPath,"a")
+    for qqStr in qqList:
+        f.write(qqStr+"\n")
+    f.close()
 
+
+    return urlList
+
+# qqCrawler(url,toPath)
+
+def centerControl(url,toPath):
+    queue = deque()
+
+    queue.append(url)
+    while len(queue) != 0:
+        targetUrl = queue.popleft()
+        urlList = qqCrawler(targetUrl,toPath)
+        for item in urlList:
+            tempUrl =item[0]
+            queue.append(tempUrl)
+
+url = r"https://www.douban.com/group/topic/110094603/"
+toPath = r"G:\python_learn\pycharm_learn\Python-TrainingCourseLearning\day014\file\qqfile.txt"
+
+centerControl(url,toPath)
 
 '''
-    writeFileBytes(htmlBytes,r"G:\python_learn\pycharm_learn\pythonlearn\day014\file\fileBytes.html")
-    writeFileStr(htmlBytes,r"G:\python_learn\pycharm_learn\pythonlearn\day014\file\FileStr.html")
+    writeFileBytes(htmlBytes,r"G:\python_learn\pycharm_learn\Python-TrainingCourseLearning\day014\file\file1.html")
+    writeFileStr(htmlBytes,r"G:\python_learn\pycharm_learn\Python-TrainingCourseLearning\day014\file\File2.txt")
 '''
-
-
-
-url = r"https://www.douban.com/event/15918569/discussion/44770328/"
-toPath = r"G:\python_learn\pycharm_learn\pythonlearn\day014\file\qqFile.txt"
-qqCrawler(url,toPath)
-
-
-
-
 
 
 
